@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+h1
+{
+	background-color: yellow;
+	text-color: blue;
+	text-align:center;
+	font-size: 300%;
+}

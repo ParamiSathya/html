@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head><center>
+<h1>Login Page</h1>
+<body>
+<form>
+<label>Username</label><br>
+<input type="text" Id="username" onfocusout="login()"><br>
+<label>Password</label><br>
+<input type="password"id="password"><br><br>
+<button type="submit"><center>login </center></button></center>
+
+</form>
+<script>
+function login(){
+	var username=document.getElementById("username").value;
+	if(username.length<8)
+		{
+		alert("Enter atleast 8 letters");
+		}
+}
+	
+	
+
+
+</script>
+</body>
+</html>

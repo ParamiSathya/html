@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title></title>
+<body>
+<script>
+function generate()
+{
+	var no1=document.getElementById("no1");
+	var no2=document.getElementById("no2");
+	var _random1=1,_random2=1;
+	while(_random1== _random2)
+		{
+		_random1=Math.floor(Math.random()*10)
+		_random2=Math.floor(Math.random()*10)
+		}
+		
+		
+	no1.innerText=_random1;
+	no2.innerText=_random2;
+}
+	
+</script>
+</head>
+
+<label id="no1"> </label>
+<label id="no2"> </label>
+<button onclick="generate()">Generate</button>
+
+</body>
+</html>
